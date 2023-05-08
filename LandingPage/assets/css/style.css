@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#landingPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* apresentations */
+
+.introduction {
+    flex: 2;
+    margin-left: 50px;
+}
+
+
+.logo {
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.logo img {
+    width: 70px;
+}
+.logoPage {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info {
+    color: #0795ff;
+}
+
+
+.info-web {
+    margin-top: 15px;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title {
+    font-size: 45px;
+}
+.date {
+    color: #ccc;
+    font-size: 20px;
+}
+.subTitle {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.presenters {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 650px;
+}
+
+.one,
+.two,
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #ccc;
+    width: 200px;
+}
+.occupation {
+    color: #aaa;
+}
+.peoples h3 {
+    margin: 10px 0px;
+}
+
+
+
+.peoples img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* formulario */
+.form {
+    flex: 1;
+    background-image: url(../img/pattern.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    height: 100%;
+    color: #fff;
+    padding: 30px;
+}
+
+.container-form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.nome-form {
+    display: flex;
+}
+.nome-form input {
+    width: 100%;
+}
+
+.container-form h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-form p {
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+form input {
+    height: 40px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+}
+
+.conteudo {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.conteudo ul{
+    margin-top: 20px;
+    list-style: none;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+}
